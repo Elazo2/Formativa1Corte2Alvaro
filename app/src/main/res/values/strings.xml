@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formativa1Corte2Alvaro</string>
+    <string name="X1">Ingrese el valor de X1</string>
+    <string name="X2">Ingrese el valor de X2</string>
+    <string name="Y1">Ingrese el valor de Y1</string>
+    <string name="Y2">Ingrese el valor de Y2</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="puntoMedio">Punto Medio</string>
+    <string name="ecuaLineal">Ecuacion lineal</string>
+    <string name="cuadrantes">Cuadrantes</string>
+</resources>

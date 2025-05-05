@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/genPuntosPrimer"
+        android:title="PuntosPrimerCuadrante"/>
+
+    <item android:id="@+id/genPuntosSegundo"
+        android:title="PuntosSegundoCuadrante"/>
+
+    <item android:id="@+id/genPuntosTercero"
+        android:title="PuntosTerceroCuadrante"/>
+
+    <item android:id="@+id/genPuntosCuarto"
+        android:title="PuntosCuartoCuadrante"/>
+
+</menu>
