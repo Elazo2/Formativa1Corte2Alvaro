@@ -206,7 +206,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onContextItemSelected(item);
     }
-
     private void generarPuntosEnCuadrante(int cuadrante) {
         double x = 0, y = 0;
 
