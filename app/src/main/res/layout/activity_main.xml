@@ -1,98 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    android:backgroundTint="#000000"
     android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/TxtX1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/X1"
-        android:importantForAutofill="no"
-        android:inputType="number|numberDecimal|numberSigned"
-        android:textColorHint="#546E7A"
-        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+        android:hint="X1"
+        android:inputType="numberDecimal|numberSigned"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
 
     <EditText
         android:id="@+id/TxtX2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/X2"
-        android:inputType="number|numberDecimal|numberSigned"
+        android:hint="X2"
+        android:inputType="numberDecimal|numberSigned"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
-        tools:ignore="VisualLintTextFieldSize" />
+        android:textColorHint="#546E7A" />
 
     <EditText
         android:id="@+id/TxtY1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/Y1"
-        android:inputType="number|numberDecimal|numberSigned"
+        android:hint="Y1"
+        android:inputType="numberDecimal|numberSigned"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
-        tools:ignore="VisualLintTextFieldSize" />
+        android:textColorHint="#546E7A" />
 
     <EditText
         android:id="@+id/TxtY2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/Y2"
-        android:inputType="number|numberDecimal|numberSigned"
+        android:hint="Y2"
+        android:inputType="numberDecimal|numberSigned"
         android:minHeight="48dp"
-        android:textColorHint="#546E7A"
-        tools:ignore="VisualLintTextFieldSize" />
+        android:textColorHint="#757575" />
 
     <Button
         android:id="@+id/btnPendiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pendiente"
-        tools:ignore="VisualLintButtonSize" />
+        android:text="Calcular Pendiente" />
 
     <Button
         android:id="@+id/btnPuntoMedio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/puntoMedio"
-        tools:ignore="VisualLintButtonSize" />
+        android:text="Calcular Punto Medio" />
 
     <Button
         android:id="@+id/btnEcuaLineal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ecuaLineal"
-        tools:ignore="VisualLintButtonSize" />
+        android:text="Ecuación de la Recta" />
 
     <Button
         android:id="@+id/btnCuadrantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/cuadrantes"
-        tools:ignore="VisualLintButtonSize" />
+        android:text="Mostrar Cuadrantes" />
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
         android:text="Resultados aquí"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
         android:textSize="16sp" />
 
 </LinearLayout>
